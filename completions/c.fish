@@ -1,2 +1,2 @@
-# c
-complete -x -c c -d "Saved bookmarks" -xa "(cat ~/.sdirs | cut -f1 -d' ' | cut -c5-)"
+# not finished yet,,
+complete -x -c g -d "Hint directories" -x "ls -pG | grep /"

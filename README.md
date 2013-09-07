@@ -14,11 +14,12 @@ Fishmarks work with [gonsie/bashmarks](http://github.com/gonsie/bashmarks). Ther
 ## Shell Commands
 
     s <bookmark_name> - Saves the current directory as "bookmark_name"
-    c <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
-    c                 - Go to the $HOME directory (cd ~)
+    g <bookmark_name> - Goes (cd) to the directory associated with "bookmark_name"
+    g                 - Go to the $HOME directory (cd ~)
     p <bookmark_name> - Prints the directory associated with "bookmark_name"
     d <bookmark_name> - Deletes the bookmark
     l                 - Lists all available bookmarks
+    c                 - Quick entering directories and list files
     
 ## Example Usage
 
@@ -27,8 +28,8 @@ Fishmarks work with [gonsie/bashmarks](http://github.com/gonsie/bashmarks). Ther
     $ cd /usr/local/lib/
     $ s locallib
     $ l
-    $ c web<tab>
-    $ c webfolder
+    $ g web<tab>
+    $ g webfolder
 
 ## Where Fishmarks are stored
     
