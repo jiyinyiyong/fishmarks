@@ -20,3 +20,4 @@ install:
 	@echo 'd <bookmark_name> - Deletes the bookmark'
 	@echo 'l                 - Lists all available bookmarks'
 	@echo 'c                 - Quick entering directories and list files'
+	@echo 'cdir              - Quick mkdir and cd into it'

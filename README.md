@@ -20,6 +20,7 @@ Fishmarks work with [gonsie/bashmarks](http://github.com/gonsie/bashmarks). Ther
     d <bookmark_name> - Deletes the bookmark
     l                 - Lists all available bookmarks
     c                 - Quick entering directories and list files
+    cdir              - Quick mkdir and cd into it
     
 ## Example Usage
 

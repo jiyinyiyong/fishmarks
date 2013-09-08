@@ -17,7 +17,7 @@ function fishmark_help -d "prints fishmarks help if flagged"
                 echo "c                 - Goes to home directory (cd ~)"
                 echo "p <bookmark_name> - Prints the directory associated with 'bookmark_name'"
                 echo "d <bookmark_name> - Deletes the bookmark"
-                echo "l                 - Lists all available bookmarks"
+                echo "k                 - Lists all available bookmarks"
                 kill -SIGINT %self
          end
 end
